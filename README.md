@@ -28,3 +28,17 @@ Start both the backend and frontend servers.<br />
 Open the React app in a browser.<br />
 Select a device from the dropdown.<br />
 View real-time energy consumption trends in the chart.<br />
+
+# Design Choices:
+
+Flask for the backend: Chosen for its lightweight nature, easy integration with SQLite, and simplicity in handling API requests.<br />
+SQLite for storage: Suitable for a small-scale project that doesn't require complex database management.<br />
+React for the frontend: Provides a dynamic UI and seamless interaction with the backend API.<br />
+Chart.js for visualization: Offers interactive charts for a better user experience.<br />
+Bootstrap for styling: Ensures a clean and responsive design across devices.<br />
+
+# Challenges Faced:
+
+Real-time Data Handling: Implementing a mechanism to simulate real-time energy data updates efficiently.<br />
+Database Management: Ensuring proper handling of energy consumption data in SQLite without performance bottlenecks.<br />
+Frontend-Backend Communication: Managing smooth communication between Flask and React, especially for fetching and displaying real-time data.<br />
